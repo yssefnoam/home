@@ -1,0 +1,6 @@
+#!/bin/bash
+while [ condition ]
+do
+echo "thinking..."
+sleep 0.3
+done
