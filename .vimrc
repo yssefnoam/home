@@ -1,13 +1,14 @@
-"############################################################
-"                                                           #
-"       Writer:	Youssef Noam <2020noam@gmail.com>           #
-"                                                           #
-"                                                           #
-"   	Created: 2019/11/03 14:23:37 by ynoam               #
-"       Updated: 2019/11/03 14:23:37 by ynoam               #
-"                                                           #
-"     for Unix and OS/2:  ~/.vimrc                          #
-"############################################################
+" **************************************************************************** "
+"                                                                              "
+"                                                         :::      ::::::::    "
+"    .vimrc                                             :+:      :+:    :+:    "
+"                                                     +:+ +:+         +:+      "
+"    By: ynoam <ynoam@student.1337.ma>              +#+  +:+       +#+         "
+"                                                 +#+#+#+#+#+   +#+            "
+"    Created: 2020/01/23 20:55:35 by ynoam             #+#    #+#              "
+"    Updated: 2020/02/15 19:09:59 by ynoam            ###   ########.fr        "
+"                                                                              "
+" **************************************************************************** "
 
 "############# Setting Options##############
 :set nu
@@ -25,10 +26,16 @@
 :se relativenumber
 :se cursorline
 :se splitbelow
-":se colorcolumn=80 
+:set exrc
+:set secure
+":se colorcolumn=82 
+"augroup project
+"	autocmd!
+"	autocmd BufRead,BufNewFile *.h,*.c set filetype=c.doxygen
+"augroup END
 
 "############# Source Files @############
 :source ~/.vim/abbreviations.vim
 :source ~/.vim/colors/dracula.vim
-"############# Mappings ######3333
-source ~/.vim/map.vim
+:source ~/.vim/map.vim
+:source ~/.vim/myheader.vim
