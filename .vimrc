@@ -6,7 +6,7 @@
 "    By: ynoam <ynoam@student.1337.ma>              +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2020/02/22 10:40:20 by ynoam             #+#    #+#              "
-"    Updated: 2020/02/24 12:17:15 by ynoam            ###   ########.fr        "
+"    Updated: 2020/02/24 21:15:45 by ynoam            ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -29,8 +29,9 @@
 :set exrc
 :set secure
 :set autowrite
-:set foldmethod=indent
+":set foldmethod=indent
 ":set dictionary+=/Applications/MAMP/Library/share/dictionary.txt
+:set dictionary+=.
 filetype plugin on
 ":se colorcolumn=82 
 "augroup project
