@@ -6,7 +6,7 @@
 "    By: ynoam <ynoam@student.1337.ma>              +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2020/02/22 10:40:20 by ynoam             #+#    #+#              "
-"    Updated: 2020/02/22 10:40:26 by ynoam            ###   ########.fr        "
+"    Updated: 2020/02/24 12:17:15 by ynoam            ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -28,6 +28,10 @@
 :se splitbelow
 :set exrc
 :set secure
+:set autowrite
+:set foldmethod=indent
+":set dictionary+=/Applications/MAMP/Library/share/dictionary.txt
+filetype plugin on
 ":se colorcolumn=82 
 "augroup project
 "	autocmd!
@@ -37,7 +41,7 @@ let $USER = 'ynoam'
 let $MAIL = $USER . '@student.1337.ma'
 
 "############# Source Files @############
+colorscheme dracula 
 :source ~/.vim/abbreviations.vim
-:source ~/.vim/colors/dracula.vim
 :source ~/.vim/map.vim
-":source ~/.vim/myheader.vim
+:source ~/.vim/myheader.vim
