@@ -1,8 +1,8 @@
 #PS1="\[\e[96m\]\W:\[\e[93m\]next> \[\e[95m\]"
 PS1="\[\e[96m\]\$ \[\e[95m\]"
-PATH="$PATH:~/bin:~/.brew/bin:~/devenv//new/minishell/command/"
+PATH="$PATH:~/home/bin:~/.brew/bin"
 set -o vi
-clear
+EDITOR=vi
 alias source="source ~/.bashrc"
 alias myip="curl ipinfo.io/ip"
 alias fr="rm -rf"
@@ -28,4 +28,4 @@ rm -rf ~/.cocoapods*
 brew cleanup
 #think
 clear
-#cat ~/bin/notelist
+
