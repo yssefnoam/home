@@ -5,8 +5,8 @@
 "                                                     +:+ +:+         +:+      "
 "    By: ynoam <ynoam@student.1337.ma>              +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
-"    Created: 2020/01/23 20:55:35 by ynoam             #+#    #+#              "
-"    Updated: 2020/02/15 19:09:59 by ynoam            ###   ########.fr        "
+"    Created: 2020/02/22 10:40:20 by ynoam             #+#    #+#              "
+"    Updated: 2020/02/22 10:40:26 by ynoam            ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -33,9 +33,11 @@
 "	autocmd!
 "	autocmd BufRead,BufNewFile *.h,*.c set filetype=c.doxygen
 "augroup END
+let $USER = 'ynoam'
+let $MAIL = $USER . '@student.1337.ma'
 
 "############# Source Files @############
 :source ~/.vim/abbreviations.vim
 :source ~/.vim/colors/dracula.vim
 :source ~/.vim/map.vim
-:source ~/.vim/myheader.vim
+":source ~/.vim/myheader.vim
