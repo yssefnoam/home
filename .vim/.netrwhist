@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/ynoam/garbage'
+let g:netrw_dirhist_2='/Users/ynoam'
+let g:netrw_dirhist_3='/Users/ynoam/Desktop'
+let g:netrw_dirhist_4='/Users/ynoam/Desktop/42_cursus'
+let g:netrw_dirhist_5='/Users/ynoam/Desktop/42_cursus/cub3d'
+let g:netrw_dirhist_6='/Users/ynoam/Desktop/42_cursus/cub3d/draw'
+let g:netrw_dirhist_7='/Users/ynoam/work'
+let g:netrw_dirhist_8='/Users/ynoam/home/bin'
