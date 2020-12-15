@@ -1,9 +1,11 @@
-:imap		<silent>	<F2>	<Esc>:!norminette<cr>
+:imap		<silent>	<F2>	<Esc>:!norminette %<cr>
 :imap		<silent>	<F4>	<Esc>:Vex<cr>
+:imap		<silent>	<F5>	<Esc> :NERDTreeToggle<cr>
 :imap		<silent>	<F7>	<c-r>=strftime("%Y-%m-%d")<cr>
 :inoremap 	<silent>	<c-c>	<c-o>yiW<End>=<c-r>=<c-r>0<cr>
 :inoremap 	<silent>	<c-cr>	<esc>A<cr>
-:map		<silent>	<F2>	<Esc>:!norminette<cr>
+:map		<silent>	<F5>	<Esc> :NERDTreeToggle<cr>
+:map		<silent>	<F2>	<Esc>:!norminette %<cr>
 :map		<silent>	<F3>	<Esc>:make re<cr><cr><cr>:cwindow<cr>
 :map		<silent>	<F4>	<Esc>:Vex<cr>
 :map		<silent>	<F7>	a<c-r>=strftime("%Y-%m-%d")<cr>

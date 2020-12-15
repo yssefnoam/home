@@ -1,8 +1,0 @@
-#!/bin/bash
-if [[ $1 = "clear" ]]; then
-	echo "" > ~/bin/notelist
-elif [[ $# > 0 ]]; then
-	echo "$1" >> ~/bin/notelist
-else
-	cat ~/bin/notelist
-fi
