@@ -20,6 +20,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'file:///home/gmarik/path/to/plugin'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'zenorocha/dracula-theme'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -63,7 +64,6 @@ filetype plugin indent on    " required
 ":autocmd BufWrite * %s/\s\+$//e
 ":autocmd FileType *.[ch] 1;/^{
 syntax on
-colorscheme dracula
 :set nu
 :set numberwidth=2
 :syntax on
