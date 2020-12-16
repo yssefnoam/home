@@ -20,7 +20,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'file:///home/gmarik/path/to/plugin'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'zenorocha/dracula-theme'
+Plugin 'dracula/vim'
+Plugin 'jiangmiao/auto-pairs'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -34,6 +35,7 @@ filetype plugin indent on    " required
 " My sourcefiles
 ":source ~/.vim/functions.vim
 ":set hls is cul title
+:colorscheme dracula
 :set cul
 ":set ssop+=resize,winpos
 ":set stl=%<%f%h%m%r\ %Y\ [ASCII=%03b,0x%02B]\ [POS=%03c,%03l\/%03L]\ %03P
