@@ -6,7 +6,7 @@
 #    By: ynoam <marvin@42.fr>                       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/12/16 13:42:52 by ynoam             #+#    #+#              #
-#    Updated: 2020/12/16 19:44:22 by ynoam            ###   ########.fr        #
+#    Updated: 2020/12/17 11:21:13 by ynoam            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,10 +22,11 @@
 #mkdir -p /tmp/.$(whoami)-brew-locks
 #echo 'export PATH="$HOME/.brown/bin:$PATH"' >> ~/.bashrc
 #"echo 'export PATH="$HOME/.brown/bin:$PATH"' >> ~/.zshrc
-brew install docker && brew install docker-machine
+#brew install docker && brew install docker-machine
 docker-machine create --driver virtualbox default
 docker-machine env default
-val $(docker-machine env default)
+eval "$(docker-machine env default)"
 # and finally to test run:
 docker --version
 brew --version
+eval "$(docker-machine env default)"
