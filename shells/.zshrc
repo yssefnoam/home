@@ -16,15 +16,11 @@ alias cs="clear;ls -l"
 alias :wa="clear;ls -l"
 alias now="date && cal"
 alias gcc="gcc -Werror -Wall -Wextra "
-export PATH="$HOME/.brown/bin:$PATH"
-export PATH=$HOME/.brew/bin:$PATH
-export PATH=$HOME/.brew/bin:$PATH
-export PATH=$HOME/.brew/bin:$PATH
-export PATH="$HOME/.brew/bin:$PATH"
-export PATH="$HOME/.brew/bin:$PATH"
-export PATH="$HOME/.brew/bin:$PATH"
-export PATH="$HOME/.brew/bin:$PATH"
-export PATH="$HOME/.brew/bin:$PATH"
-export PATH="$HOME/.brew/bin:$PATH"
-export PATH="$HOME/.brew/bin:$PATH"
+#docker
+export DOCKER_TLS_VERIFY="1"
+export DOCKER_HOST="tcp://192.168.99.112:2376"
+export DOCKER_CERT_PATH="/Users/ynoam/.docker/machine/machines/default"
+export DOCKER_MACHINE_NAME="default"
+
+export PATH="/goinfre/ynoam/home/scripts/:$HOME/.brown/bin:$PATH"
 export PATH="$HOME/.brew/bin:$PATH"

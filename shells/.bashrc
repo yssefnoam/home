@@ -24,15 +24,11 @@ rm -rf ~/Library/**.42_cache_bak_**
 rm -rf ~/**.42_cache_bak_**
 rm -rf ~/.cocoapods*
 brew cleanup
-#think
-clear
 
-export PATH="$HOME/.brown/bin:$PATH"
-export PATH="$HOME/.brew/bin:$PATH"
-export PATH="$HOME/.brew/bin:$PATH"
-export PATH="$HOME/.brew/bin:$PATH"
-export PATH="$HOME/.brew/bin:$PATH"
-export PATH="$HOME/.brew/bin:$PATH"
-export PATH="$HOME/.brew/bin:$PATH"
-export PATH="$HOME/.brew/bin:$PATH"
-export PATH="$HOME/.brew/bin:$PATH"
+#docker
+export DOCKER_TLS_VERIFY="1"
+export DOCKER_HOST="tcp://192.168.99.112:2376"
+export DOCKER_CERT_PATH="/Users/ynoam/.docker/machine/machines/default"
+export DOCKER_MACHINE_NAME="default"
+
+export PATH="/goinfre/ynoam/home/scripts/:$HOME/.brown/bin:$PATH"
