@@ -18,6 +18,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'dracula/vim'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'vim-airline/vim-airline'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -77,4 +78,4 @@ syntax on
 :se relativenumber
 :se cursorline
 :se splitbelow
-":se colorcolumn=80 
+:se colorcolumn=80 
