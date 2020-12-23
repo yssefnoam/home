@@ -31,4 +31,4 @@ export DOCKER_HOST="tcp://192.168.99.112:2376"
 export DOCKER_CERT_PATH="/Users/ynoam/.docker/machine/machines/default"
 export DOCKER_MACHINE_NAME="default"
 
-export PATH="/goinfre/ynoam/home/scripts/:$HOME/.brown/bin:$PATH"
+export PATH="/goinfre/ynoam/home/scripts/:$HOME/.brew/bin:$PATH"
