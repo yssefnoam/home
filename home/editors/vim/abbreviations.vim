@@ -3,7 +3,7 @@
 :cabbrev Wq wq
 :cabbrev W w
 :cabbrev Q q
-:cabbrev qq q!
+:cabbrev qq qa!
 :iabbrev #d #define
 :iabbrev #i #include
 :iabbrev @@ 2020noam@gmail.com
